@@ -1,0 +1,22 @@
+###
+POST http://localhost:8080/todos
+Content-Type: application/json
+
+{
+  "text": "a"
+
+}
+
+###
+GET http://localhost:8080/todos
+
+###
+GET http://localhost:8080/todos/1
+
+###
+PUT http://localhost:8080/todos/1
+Content-Type: application/json
+
+{
+  "text": "aa"
+}

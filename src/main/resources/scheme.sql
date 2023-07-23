@@ -1,0 +1,5 @@
+CREATE TABLE todo_items (
+     id BIGINT PRIMARY KEY AUTO_INCREMENT,
+     text VARCHAR(255) NOT NULL,
+     done BOOLEAN NOT NULL
+);
